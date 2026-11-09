@@ -1,0 +1,28 @@
+# Python and packaging
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Tool caches and reports
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# Local datasets and experiment outputs
+/data/
+/checkpoints/
+/runs/
+
+# Local settings
+.env
+.env.*
+!.env.example
+.DS_Store
+.idea/
+.vscode/
